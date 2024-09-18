@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pdf-watermark-removal"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.10.0.84"
+fitz = "^0.0.1.dev2"
+fpdf = "^1.7.2"
+flask = "^3.0.3"
+frontend = "^0.0.3"
+pypdf2 = "^3.0.1"
+pillow = "^10.4.0"
+tools = "^0.1.9"
+reportlab = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
